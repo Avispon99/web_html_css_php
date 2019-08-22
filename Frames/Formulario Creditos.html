@@ -1,0 +1,59 @@
+
+<html>
+
+<head> <title>  formulario de creditos</title> </head>
+<body background="imagenes/Ladrillos.jpg">
+<b>
+
+
+<font size= "4" color="blue" ><b>Selecciona el Programa<b></font><br>
+
+<form method = "POST" action= "PHP/Receptor.php">
+
+ <select name = "desplegar" size = 9 >
+
+
+   <option selected value="0"> Elige una opción</option>
+    
+    <optgroup label ="Maestrias">
+     <option value="1">Gestion de Tecnologia de Información </option>
+    </optgroup> 
+    
+    <optgroup label ="Especializaciones">
+      <option value="2"> Proceso de Alimentos y Biomateriales  </option>
+      <option value="3"> Seguridad Informatica </option>
+    </optgroup>
+
+    <optgroup label ="Profesionales"> 
+      <option value="4"> Ingenieria de Alimentos </option>
+      <option value="5"> Ingenieria Industrial  </option>
+      <option value="6"> Ingenieria de Sistemas </option>
+      <option value="7"> Ingenieria de Telecomunicaciones  </option>
+      <option value="8"> Ingenieria Electronica </option>
+    </optgroup>
+    
+    <optgroup label ="Tecnologias"> 
+      <option value="9"> Tecnologia de Alimentos  </option>
+      <option value="10"> Tecnologia de Producción de Audio  </option>
+      <option value="11"> Tecnologia de Automatización  </option>
+      <option value="12"> Tecnologia de Desarrolllo de Software </option>
+      <option value="13"> Tecnologia Gestion de Redes y T. </option>
+      <option value="14"> Tecnologia en Logistica Industrial  </option>
+      <option value="15">  Tecnologia en Comunicaciones Inalambricas  </option>
+    </optgroup>  
+
+
+ </select>
+
+<br><br>
+
+<font size="4"><b>Cantidad de creditos<b></font><br>
+
+ <input name="nomtexto" type="text"> 
+ <input type = "submit" value= "Calcular" >
+
+
+</form>
+
+</body>
+</html> 
